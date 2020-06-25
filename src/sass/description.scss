@@ -1,0 +1,117 @@
+$font: Montserrat, sans-serif;
+
+.description {
+  margin: 0 auto;
+}
+
+.description_title {
+  font-weight: bold;
+  color: #000000;
+  margin: 0 auto;
+  font-size: 18px;
+  padding-bottom: 25px;
+  line-height: 18px;
+  text-align: center;
+  padding-top: 60px;
+  font-family: $font;
+  @media screen and (min-width: 768px) {
+    font-size: 30px;
+    padding-top: 100px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 0;
+    text-align: left;
+    margin-left: 50px;
+  }
+}
+
+.description_line {
+  width: 27%;
+  margin-top: -48px;
+  height: 2px;
+  background-color: #49586b;
+  margin-left: 30%;
+  margin-bottom: 30px;
+
+  @media screen and (min-width: 1200px) {
+    margin-left: 35%;
+  }
+}
+
+.description_chess-board {
+  width: 100%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.description_1-img {
+  margin: initial;
+  margin-left: 8%;
+  box-sizing: border-box;
+  height: 288px;
+  background-image: url(../images/toverna.jpg);
+  background-size: cover;
+}
+
+.description_1-text {
+  font-size: 15px;
+  font-family: $font;
+}
+
+.description_text-2 {
+  font-size: 15px;
+  font-family: $font;
+}
+
+.description_text-2-img {
+  box-sizing: border-box;
+  height: 288px;
+  background-image: url(../images/characters.jpg);
+  background-size: cover;
+  margin: inherit;
+  margin-top: 0.5px;
+}
+
+.description_text-3-img {
+  box-sizing: border-box;
+  height: 288px;
+  float: left;
+  background-image: url(../images/cards.jpg);
+  background-size: cover;
+  margin-left: 8%;
+}
+
+.description_text-3 {
+  color: #000000;
+  font-size: 15px;
+  font-family: $font;
+}
+
+.description_text-4 {
+  font-family: $font;
+  color: #000000;
+  font-size: 15px;
+}
+
+.description_text-4-img {
+  margin: initial;
+  margin-left: 8%;
+  box-sizing: border-box;
+  height: 288px;
+  background-image: url(../images/Beng700x400.jpg);
+  background-size: cover;
+}
+
+.description_text-5-img {
+  box-sizing: border-box;
+  height: 288px;
+  background-image: url(../images/family-playing.jpg);
+  background-size: cover;
+  margin: inherit;
+  margin-top: 0.5px;
+}
+
+.description_text-5 {
+  font-family: $font;
+}
