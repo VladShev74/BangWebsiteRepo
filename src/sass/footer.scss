@@ -1,0 +1,243 @@
+.footer_wrapper {
+    background-image: url(../images/photo-footer-phone.jpg);
+    background-color: rgba(0, 0, 0, 0.8);
+   
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 322px;
+    height: 542px;
+    margin: auto;
+
+    @media screen and (min-width: 768px) {
+        background-image: url(../images/bc-horse.jpg);
+    // background-color: rgba(0, 0, 0, 0.8);
+         
+            width: 768px;
+            height: 695px;
+           
+        }
+
+        
+@media screen and (min-width: 1200px) {
+  
+       
+        width: 1440px;
+        height: 700px;
+       
+    }
+}
+
+.footer {
+text-align: center;
+    margin: auto;
+    padding: 0 1rem;
+
+
+    @media screen and (min-width: 1200px) {
+    padding: 0 32px
+}
+}
+
+
+.footer_title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+    padding-top: 62px;
+    margin-bottom: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media screen and (min-width: 768px){
+    font-size: 28px;
+}
+}
+
+.contact_form {
+display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media screen and (min-width: 1200px){
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+}
+
+.footer_form-input {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 275px;
+    text-align: center;
+    margin: auto;
+
+    @media screen and (min-width: 768px) {
+    width: 580px;
+    max-width: 580px;
+}
+}
+
+.input {
+    width: 271px;
+    height: 45px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 21px;
+    margin-bottom: 25px;
+    color: #C1C1C1;
+    border-radius: 5px;
+    border: none;
+
+}
+
+
+.form-textarea {
+    width: 271px;
+    height: 175px;
+    color: #C1C1C1;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 21px;
+    padding-top: 17px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 44px;
+
+    @media screen and (min-width: 768px){
+        width: 580px;
+        height: 180px;
+}
+}
+
+
+.form-send {
+    width: 171px;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+    border: 0 solid #ffffff;
+    background-color: #8e6336;
+    border-radius: 4px;
+    padding: 12px 45px;
+    margin-bottom: 58px;
+    cursor: pointer;
+
+}
+
+.footer-contact {
+    @media screen and (min-width: 1200px) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    }
+}
+
+
+.contact_title {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin-bottom: 16px;
+
+    @media screen and (min-width: 1200px) {
+    margin-bottom: 39px;
+}
+}
+
+.footer-socials {
+    margin-bottom: 40px;
+    display: flex;
+    width: 157px;
+    justify-content: space-between;
+    text-align: center;
+    margin: auto;
+    @media screen and (min-width: 1200px){
+    text-align: left;
+    margin: 0;
+}
+  }
+
+.footer-link {
+    width: 43px;
+    height: 43px;
+    display: inline-block;
+    background-color: #c53e00 ;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border-radius:25px;
+   background-image: url(../images/linkedin.png);
+    margin: 5px;
+  }
+   
+  .footer-link:nth-of-type(1) {
+   background-image: url(../images/facebook.png);
+   
+    background-color: #a73117;
+  }
+   
+  .footer-link:nth-of-type(2) {
+   background-image: url(../images/twitter.png);
+   
+    background-color: #b43900;
+  }
+ 
+  .footer_info {
+    width: 150px;
+    text-align: center;
+    margin: auto;
+    @media screen and (min-width: 1200px) {
+    margin: 0;
+}
+  }
+
+
+.contact_number {
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+  
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+
+.contact_email {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 47px;
+    text-align: left;
+}
+
+
+.contact__footer::before {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: #ffffff;
+    opacity: 1;
+    display: inline-block;
+    margin-bottom: 22px;
+}
+
+.footer-copyright {
+    font-size: 15px;
+   
+    font-weight: 400;
+    color: #ffffff;
+    opacity: 0.5;
+    padding: 0 1.5rem;
+    text-align: left;
+    padding-bottom: 25px;
+
+}
