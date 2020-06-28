@@ -13,19 +13,14 @@ $font: Montserrat, sans-serif;
   padding-bottom: 25px;
   line-height: 18px;
   text-align: center;
-  padding-top: 60px;
+  padding-top: 30px;
   font-family: $font;
   @media screen and (min-width: 768px) {
     font-size: 30px;
     padding-top: 30px;
   }
 
-  @media screen and (min-width: 1200px) {
-    padding-top: 0;
-    text-align: left;
-    margin-left: 50px;
-  }
-}
+  
 
 .description_line {
   height: 2px;
@@ -54,6 +49,7 @@ $font: Montserrat, sans-serif;
 }
 
 .description_1-img  {
+    display: block;
 
     @media screen and (min-width: 768px) {
   box-sizing: border-box;
@@ -61,7 +57,6 @@ $font: Montserrat, sans-serif;
   width: 200px;
   background-image: url(../images/toverna.jpg);
   background-size: cover;
-  display: block;
   margin-left: 80px;
     }
   
