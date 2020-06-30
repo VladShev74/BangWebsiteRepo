@@ -1,0 +1,150 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.zagolovok_section{
+
+padding-top: 20px;
+font-size: 22px;
+
+
+}
+
+
+.comment{
+    margin-bottom: 50px;
+    text-align: center;
+    background-color: #efb95f ;
+    font-family: 'Roboto', sans-serif;
+    
+
+}
+
+.card_conteiner_default{
+ 
+padding-bottom: 7px;
+
+}
+
+.card{
+padding: 10px 0 0 10px ;
+ border: 2px solid;
+ margin: 20px 10px 20px 10px;
+ text-align: left;
+ background-color: #e0994d ;
+
+}
+
+
+
+
+.card_image_comment{
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+
+
+
+.card_text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+
+}
+
+.input_conteiner{
+    text-align: left;
+    padding-bottom: 50px;
+    padding-left: 10px;
+}
+
+.opros{
+   border: 2px solid;
+   border-radius: 10px;
+   padding: 0 0 0 8px;
+   margin-right: 30px;
+   background-color: #e0994d;
+
+
+}
+
+.test_textarea_comment{
+    font-size: 19px;
+    font-weight: 600;
+
+
+}
+
+.textarea_comment{
+    width: 85%;
+    height: 60px;
+}
+
+
+.submit{
+  padding: 10px 20px 10px 20px;
+}
+
+.reset{
+    padding: 10px 20px 10px 20px;
+    min-width: "768px";
+
+}
+
+@media ( min-width: 768px ){
+
+
+    
+    .comment{
+        padding-left: 1rem;
+    }
+
+
+    .zagolovok_section{
+        padding-top: 30px;
+    }
+
+
+    .card_conteiner , .card_conteiner_2{
+        display: flex;
+        justify-content: space-between;
+        width: 95% ;
+
+    }
+    
+
+
+
+
+
+    .card_1{
+       width: 70%;
+    }
+    
+    .card_2{
+       width: 30%;
+    }
+    
+    .card_3{
+        width: 30%;
+
+    }
+    
+    .card_4{
+        width: 70%;
+
+    }
+   
+
+
+
+
+
+
+}
+
+
