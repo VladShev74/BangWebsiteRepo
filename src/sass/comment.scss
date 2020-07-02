@@ -5,13 +5,7 @@ body{
     padding: 0;
 }
 
-.zagolovok_section{
 
-padding-top: 20px;
-font-size: 22px;
-
-
-}
 
 
 .comment{
@@ -19,9 +13,25 @@ font-size: 22px;
     text-align: center;
     background-color: #efb95f ;
     font-family: 'Roboto', sans-serif;
+    background-image: url(../images/212121212.jpg);
+    padding-top: 20px;
     
 
 }
+
+.zagolovok_section{
+
+    padding-top: 20px;
+    font-size: 22px;
+    //
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 10px 0px 10px 0px;
+    margin: 0 10px 0 10px;
+    background-color: #efb95f;
+    //
+    }
+
 
 .card_conteiner_default{
  
@@ -84,7 +94,15 @@ padding-bottom: 7px;
 .nick_name{
     height: 50px;
     width: 210px;
+    padding: 5px 0 0 5px;
 }
+
+.nick_name_text{
+    padding: 5px 0 0 5px;
+
+
+}
+
 
 .textarea_comment{
     width: 95%;
@@ -125,7 +143,10 @@ padding-bottom: 7px;
 
     }
     
-
+    .zagolovok_section{
+        padding: 10px 0px 10px 0;
+        margin: 0 1rem 0 0;
+    }
 
     .input_conteiner{
         padding-right: 10px;
