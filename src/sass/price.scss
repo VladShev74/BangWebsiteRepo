@@ -72,22 +72,11 @@ font-size: 20px;
 
 
 .perehod_href{
-// display: none;
 text-decoration: none;
 color: #272323;
 
 }
 
-// .bang_card:hover > .perehod_href{
-//     text-decoration: none;
-//     color: #272323;
-
-    
-// }
-
-// .bang_card:hover > .card_1{
-//     display: block;
-// }
 
 
 
@@ -120,12 +109,12 @@ color: #272323;
         width: 120px;
     }
 
-    // .bang_card:hover{
+     .bang_card:hover{
 
-    //     transform: scale(1.1);
+    transform: scale(1.2);
 
 
-    // }
+   }
 
    .perehod_text{
        padding: 0 5px 0 5px;
