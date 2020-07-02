@@ -30,7 +30,7 @@ padding-bottom: 7px;
 }
 
 .card{
-padding: 10px 0 0 10px ;
+ padding: 10px 0 0 10px ;
  border: 2px solid;
  margin: 20px 10px 20px 10px;
  text-align: left;
@@ -66,9 +66,9 @@ padding: 10px 0 0 10px ;
    border: 2px solid;
    border-radius: 10px;
    padding: 0 0 0 8px;
-   margin-right: 30px;
+   margin-right: 10px;
    background-color: #e0994d;
-
+   
 
 }
 
@@ -79,19 +79,28 @@ padding: 10px 0 0 10px ;
 
 }
 
-.textarea_comment{
-    width: 85%;
-    height: 60px;
+
+
+.nick_name{
+    height: 50px;
+    width: 210px;
 }
+
+.textarea_comment{
+    width: 95%;
+    height: 90px;
+}
+
 
 
 .submit{
   padding: 10px 20px 10px 20px;
+
 }
 
 .reset{
     padding: 10px 20px 10px 20px;
-    min-width: "768px";
+
 
 }
 
@@ -112,11 +121,17 @@ padding: 10px 0 0 10px ;
     .card_conteiner , .card_conteiner_2{
         display: flex;
         justify-content: space-between;
-        width: 95% ;
+        width: 98% ;
 
     }
     
 
+
+    .input_conteiner{
+        padding-right: 10px;
+    }
+
+    
 
 
 
