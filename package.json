@@ -9,12 +9,12 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://github.com/VladShev74/BangWebsiteRepo",
+  "homepage": "https://vladshev74.github.io/BangWebsiteRepo",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/luxplanjay/gulp-starter-kit.git"
+    "url": "git+https://github.com/VladShev74/BangWebsiteRepo.git"
   },
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Vlad Shevchuk",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/luxplanjay/gulp-starter-kit/issues"
